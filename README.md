@@ -78,4 +78,4 @@ func main() {
 
  ## 问题相关
 
- 有任何问题欢迎提Issue,或者将问题描述发送至我邮箱 `caosong1319#gmail.com`.我会尽快解答.推荐提交Issue方式.
+ 有任何问题欢迎提Issue,或者将问题描述发送至我邮箱 `caosong1319@gmail.com`.我会尽快解答.推荐提交Issue方式.
