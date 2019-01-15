@@ -74,7 +74,13 @@ func main() {
 ```
 
 ## Doc
+详细的文档
+https://blog.csdn.net/pkufergus/article/details/86495914
 
+## 后续
+1、增加参数传递  
+2、增加返回参数传递  
+3、增加超时控制  
 
  ## 问题相关
 
