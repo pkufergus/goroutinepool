@@ -17,7 +17,7 @@ func TestNewRoutinePool(t *testing.T) {
 		})
 
 	}
-	p.Wait()
+	p.WaitAll()
 	//time.Sleep(2 * time.Second)
 }
 
@@ -38,7 +38,6 @@ func TestSum(t *testing.T) {
 		})
 
 	}
-	p.Wait()
-	//time.Sleep(2 * time.Second)
+	p.WaitAll()
 	fmt.Printf("sum=%d\n", g_index)
 }

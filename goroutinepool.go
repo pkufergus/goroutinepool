@@ -32,6 +32,6 @@ func (rp *RoutinePool) Done() {
 	<-rp.ch
 }
 
-func (rp *RoutinePool) Wait() {
+func (rp *RoutinePool) WaitAll() {
 	rp.waitgroup.Wait()
 }
