@@ -32,7 +32,7 @@ func main() {
 		})
 
 	}
-	p.Wait()
+	p.WaitAll()
 }
 
 ```
@@ -67,7 +67,7 @@ func main() {
 		})
 
 	}
-	p.Wait()
+	p.WaitAll()
 	fmt.Printf("sum=%d\n", g_index)
 }
 
