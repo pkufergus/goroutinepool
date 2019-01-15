@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/pkufergus/goroutinepool"
-	"time"
-	"fmt"
+"github.com/pkufergus/goroutinepool"
+"time"
+"fmt"
 )
 
 func main() {

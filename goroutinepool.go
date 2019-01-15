@@ -27,6 +27,11 @@ func (rp *RoutinePool) AddJob(job Job) {
 	go RoutineRun(job, rp)
 }
 
+func (rp *RoutinePool) Add() {
+	rp.ch<- false
+	rp.waitgroup.Add(1)
+}
+
 func (rp *RoutinePool) Done() {
 	rp.waitgroup.Done()
 	<-rp.ch
