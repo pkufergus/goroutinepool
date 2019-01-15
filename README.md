@@ -1,6 +1,6 @@
 # goroutinepool
-Simple Goroutine pool
-一个简单的go golang 协程池
+Simple Goroutine pool  
+一个简单的go golang 协程池  
 使用原生的channel和waitgroup实现，简单实用
 
 # How to use
